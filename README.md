@@ -24,15 +24,15 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 
 ### Usage & Effects
 
-This addon will automatically and periodically check if data stream exceeds **remind-value**.
+- This addon will automatically and periodically check if data stream exceeds **remind-value**.
 
-Open http://10.200.1.1/login_online_detail.php when you want to use this addon.
+- Open http://10.200.1.1/login_online_detail.php when you want to use this addon.
 
-If data stream exceeds remind-value, it will alert you and increase the remind-value.
+- If data stream exceeds remind-value, it will alert you and increase the remind-value.
 
-Data stream will reset to zero, and remind-value will be initialized also.
+- Data stream will reset to zero, and remind-value will be initialized also.
 
-**Initial-value of remind-value**, **increment of remind-value**, and **cycle-time of checking data stream** can be set in **preferences**.
+- **Initial-value of remind-value**, **increment of remind-value**, and **cycle-time of checking data stream** can be set in **preferences**.
 
 
 ### Example
@@ -67,15 +67,15 @@ Data stream will reset to zero, and remind-value will be initialized also.
 
 ### 使用方法 & 效果
 
-這個附加元件會自動幫你定期檢測流量是否已達到**提醒值**
+- 這個附加元件會自動幫你定期檢測流量是否已達到**提醒值**
 
-使用時請開著 http://10.200.1.1/login_online_detail.php
+- 使用時請開著 http://10.200.1.1/login_online_detail.php
 
-若超過提醒值會彈窗警告，並將提醒值上調
+- 若超過提醒值會彈窗警告，並將提醒值上調
 
-超過 12 點流量歸零，提醒值也會回到初始值
+- 超過 12 點流量歸零，提醒值也會回到初始值
 
-**提醒初始值**、**提醒值上調幅度**、**流量檢查的周期** 都可以在「**偏好設置**」中設定
+- **提醒初始值**、**提醒值上調幅度**、**流量檢查的周期** 都可以在「**偏好設置**」中設定
 
 
 ### 範例
