@@ -35,7 +35,7 @@ Data stream will reset to zero, and remind-value will be initialized also.
 **Initial-value of remind-value**, **increment of remind-value**, and **cycle-time of checking data stream** can be set in **preferences**.
 
 
-Example:
+### Example
 
 ![example](https://addons.cdn.mozilla.net/user-media/previews/full/178/178344.png?modified=1473724821)
 
@@ -78,6 +78,6 @@ Example:
 **提醒初始值**、**提醒值上調幅度**、**流量檢查的周期** 都可以在「**偏好設置**」中設定
 
 
-範例：
+### 範例
 
 ![範例](https://addons.cdn.mozilla.net/user-media/previews/full/178/178344.png?modified=1473724821)
