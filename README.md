@@ -15,8 +15,11 @@ If any question, send email to let me know.
 
 ### How to Install
 If you have already installed **Firefox**, there are at least **three ways** to install this addon:
+
 1. Go to [Addon Homepage](https://addons.mozilla.org/zh-TW/firefox/extensions/) and serach for **NCUE Net Reminder**. If you find it, just install !
+
 2. Go to [ncue-net-reminder Homepage](https://addons.mozilla.org/zh-tw/firefox/addon/ncue-net-reminder/?src=search) and install.
+
 3. After `git clone https://github.com/j6qup3/ncue-net-reminder.git`, executing `ncue-net-reminder/ncue-net-reminder.xpi`.
 
 ### Usage & Effects
@@ -55,8 +58,11 @@ Example:
 
 ### 如何安裝
 如果你有安裝 **Firefox**，那至少有**三種方式**可以安裝此插件：
+
 1. 到 [附加元件首頁](https://addons.mozilla.org/zh-TW/firefox/extensions/) 搜尋 **NCUE Net Reminder** 就有了，裝下去就對了
+
 2. 直接到 [ncue-net-reminder 頁面](https://addons.mozilla.org/zh-tw/firefox/addon/ncue-net-reminder/?src=search) 安裝
+
 3. `git clone https://github.com/j6qup3/ncue-net-reminder.git` 後執行 `ncue-net-reminder/ncue-net-reminder.xpi`
 
 ### 使用方法 & 效果
