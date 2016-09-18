@@ -1,0 +1,48 @@
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<div style="text-align: center; color: white;">
+  <h3>檢查周期 cycle-time of checking data stream</h3>
+  設定流量檢查的周期
+  <br>
+  set cycle-time of checking data stream
+  <br>
+  (整數，單位：分鐘) (integer, minute)
+  <br>
+  <br>
+  <input type="text" id="delay_time">
+  <br>
+  <hr>
+  <h3>提醒初始值 initial-value of remind-value</h3>
+  設定觸發流量提醒的最低流量
+  <br>
+  set initial-value of remind-value
+  <br>
+  (整數，單位：MB，最大 8000) (integer, MB) (1 GB = 1024 MB)
+  <br>
+  <br>
+  <input type="text" id="alert_min">
+  <br>
+  <hr>
+  <h3>提醒值上調幅度 increment of remind-value</h3>
+  設定觸發流量提醒的間隔流量
+  <br>
+  set increment of remind-value
+  <br>
+  (整數，單位：MB) (integer, MB) (1 GB = 1024 MB)
+  <br>
+  <br>
+  <input type="text" id="alert_mid">
+  <br>
+  <hr>
+  <br>
+  <button id="save">儲存 Save</button>
+</div>
+<style type="text/css">
+  html
+  {
+    background-color: black;
+  }
+  h3
+  {
+    color: red;
+  }
+</style>
