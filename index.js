@@ -69,7 +69,7 @@ let worker = Page({
     // 隔日流量初始化
     if (mb < remind_value - prefSet.prefs.alert_mid)
       remind_value = prefSet.prefs.alert_min;
-    button.badge = str;
+    button.badge = mb;
     if (mb >= 8 * 1024)
     {
       button.badgeColor = "#FF0000";

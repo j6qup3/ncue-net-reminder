@@ -4,7 +4,7 @@
 
 ## Data stream reminder in net of NCUE dormitory
 
-**Warning**: This addon will only active in net of NCUE dormitory.(http://10.200.1.1/login_online_detail.php will only be connected in net of NCUE dormitory)
+**Warning**: This addon will only active in net of NCUE dormitory.
 
 ### Introduction
 Do you afraid of IP-locked by NCUE? Just try this addon.
@@ -29,13 +29,13 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 
 - This addon will automatically and periodically check if data stream exceeds **remind-value**.
 
-- Open http://10.200.1.1/login_online_detail.php when you want to use this addon.
+- The data stream value (MB) will be displayed on **toolbar-button**. You can check the detailed data stream value and remind-value when cursor stopping on toolbar-button. You can also open **setting-panel** by clicking toolbar-button.
 
-- If data stream exceeds remind-value, it will alert you and increase the remind-value.
+- If data stream value exceeds remind-value, it will notify you and increase the remind-value. Also, data stream value displayed on toolbar-button will become red until clicking toolbar-button or notification.
 
-- Data stream will reset to zero, and remind-value will be initialized also.
+- Data stream value will reset to zero everyday, and remind-value will be initialized also.
 
-- **Initial-value of remind-value**, **increment of remind-value**, and **cycle-time of checking data stream** can be set in **preferences**.
+- **Initial-value of remind-value**, **increment of remind-value**, and **cycle-time of checking data stream** can be set in **preferences** and setting-panel.
 
 
 ### Example
@@ -47,7 +47,7 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 # 彰師大宿網流量提醒
 ## 彰師大宿網流量提醒附加元件
 
-**警告**：這個附加元件只在彰師宿網內部有效。(http://10.200.1.1/login_online_detail.php 要在彰師內部網路才連的上)
+**警告**：這個附加元件只在彰師宿網內部有效。
 
 ### 簡介
 怕爆流量被鎖 IP 嗎？立刻來試這款附加元件吧！
@@ -72,13 +72,13 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 
 - 這個附加元件會自動幫你定期檢測流量是否已達到**提醒值**
 
-- 使用時請開著 http://10.200.1.1/login_online_detail.php
+- **工具列按鈕**上會有當前流量值 (單位：MB)，游標停在上面可查看當前詳細流量以及下次的提醒流量，按下工具列按鈕可以展開**設定介面**
 
-- 若超過提醒值會彈窗警告，並將提醒值上調
+- 若流量超過提醒值會警告，並將提醒值上調，工具列按鈕上的流量值會變成紅色，直到按下工具列按鈕或按下通知才會回復正常
 
 - 超過 12 點流量歸零，提醒值也會回到初始值
 
-- **提醒初始值**、**提醒值上調幅度**、**流量檢查的周期** 都可以在「**偏好設置**」中設定
+- **提醒初始值**、**提醒值上調幅度**、**流量檢查的周期** 都可以在**偏好設置**和設定介面中設定
 
 
 ### 範例

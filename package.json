@@ -1,7 +1,7 @@
 {
   "title": "NCUE Net Reminder",
   "name": "ncue-net-reminder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Data stream reminder in net of NCUE dormitory\n\nWarning: This addon will only active in net of NCUE dormitory.(http://10.200.1.1/login_online_detail.php will only be connected in net of NCUE dormitory)\n\nThis addon will automatically and periodically check if data stream exceeds remind-value.\nIf data stream exceeds remind-value, it will alert you and increase the remind-value.\nData stream will reset to zero, and remind-value will be initialized also.\ninitial-value of remind-value, increment of remind-value, and cycle-time of checking data stream can be set in preferences.\n\nIf any question, send email to let me know.",
   "locales": {
     "zh": {
@@ -20,21 +20,21 @@
         "title": "檢查周期 cycle-time of checking data stream",
         "description": "設定流量檢查的周期 (整數，單位：分鐘)\nset cycle-time of checking data stream (integer, minute)",
         "type": "integer",
-        "value": 1
+        "value": 10
     },
     {
         "name": "alert_min",
         "title": "提醒初始值 initial-value of remind-value",
         "description": "設定觸發流量提醒的最低流量 (整數，單位：MB，最大 8000)\nset initial-value of remind-value (integer, MB) (1 GB = 1024 MB)",
         "type": "integer",
-        "value": 10
+        "value": 4096
     },
     {
         "name": "alert_mid",
         "title": "提醒值上調幅度 increment of remind-value",
         "description": "設定觸發流量提醒的間隔流量 (整數，單位：MB)\nset increment of remind-value (integer, MB) (1 GB = 1024 MB)",
         "type": "integer",
-        "value": 0
+        "value": 1024
     }],
   "engines": {
     "firefox": ">=38.0a1",
