@@ -70,7 +70,7 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 
 - 這個附加元件會自動幫你定期檢測流量是否已達到**提醒值**
 
-- **工具列按鈕**上會有當前流量值 (單位：MB)，游標停在上面可查看當前詳細流量以及下次的提醒流量，按下工具列按鈕可以展開**設定介面**
+- **工具列按鈕**上會有當前流量值 (單位：MB)，游標停在上面可查看當前詳細流量以及下次的提醒流量，按下工具列按鈕可以展開**設定介面**         
 ![example image](https://addons.cdn.mozilla.net/user-media/previews/full/178/178587.png?modified=1474251423)
 ![example image](https://addons.cdn.mozilla.net/user-media/previews/full/178/178588.png?modified=1474251423)
 
