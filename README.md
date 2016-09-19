@@ -74,7 +74,7 @@ If you have already installed **Firefox**, there are at least **three ways** to 
 ![example image](https://addons.cdn.mozilla.net/user-media/previews/full/178/178587.png?modified=1474251423)
 ![example image](https://addons.cdn.mozilla.net/user-media/previews/full/178/178588.png?modified=1474251423)
 
-- 若流量超過提醒值會警告，並將提醒值上調，工具列按鈕上的流量值會變成紅色，直到按下工具列按鈕或按下通知才會回復正常
+- 若流量超過提醒值會警告，並將提醒值上調，工具列按鈕上的流量值會變成紅色，直到按下工具列按鈕或按下通知才會回復正常        
 ![example image](https://addons.cdn.mozilla.net/user-media/previews/full/178/178586.png?modified=1474251423)
 
 - 超過 12 點流量歸零，提醒值也會回到初始值
