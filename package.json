@@ -1,7 +1,7 @@
 {
   "title": "NCUE Net Reminder",
   "name": "ncue-net-reminder",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Data stream reminder in net of NCUE dormitory\n\nWarning: This addon will only active in net of NCUE dormitory.(http://10.200.1.1/login_online_detail.php will only be connected in net of NCUE dormitory)\n\nThis addon will automatically and periodically check if data stream exceeds remind-value.\nIf data stream exceeds remind-value, it will alert you and increase the remind-value.\nData stream will reset to zero, and remind-value will be initialized also.\ninitial-value of remind-value, increment of remind-value, and cycle-time of checking data stream can be set in preferences.\n\nIf any question, send email to let me know.",
   "locales": {
     "zh": {
