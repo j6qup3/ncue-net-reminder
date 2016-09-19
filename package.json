@@ -25,7 +25,7 @@
     {
         "name": "alert_min",
         "title": "提醒初始值 initial-value of remind-value",
-        "description": "設定觸發流量提醒的最低流量 (整數，單位：MB，最大 8000)\nset initial-value of remind-value (integer, MB) (1 GB = 1024 MB)",
+        "description": "設定觸發流量提醒的最低流量 (整數，單位：MB，最大 8192)\nset initial-value of remind-value (integer, MB) (1 GB = 1024 MB)",
         "type": "integer",
         "value": 4096
     },
